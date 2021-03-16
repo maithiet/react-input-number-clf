@@ -7,10 +7,12 @@ const Inputs = styled.div`
     display: flex;
     width: 100%;
     flex-direction: row;
+    max-width: 400px;
+    margin: auto;
     align-items: center;
     justify-content: space-between;
     background: ${props => props.background ? props.background : '#fff'};
-    height: ${props => props.size ? `${props.size}px` : '25px'};
+    height: ${props => props.size ? `${props.size}px` : '30px'};
     padding: 0 3px;
     font-weight: bold;
     border-radius: 24px;

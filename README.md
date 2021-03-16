@@ -1,4 +1,4 @@
-# react-input-number
+# react-input-number-clf
 
 > Made with create-react-library
 
@@ -7,21 +7,28 @@
 ## Install
 
 ```bash
-npm install --save react-input-number
+npm install --save react-input-number-clf
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-input-number'
-import 'react-input-number/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
+import React, { useState } from 'react'
+import { InputNumber } from 'react-input-number-clf'
+function Example(){
+  const [value, setValue] = useState(0)
+  const onChange = (e) => {
+      console.log(e)
+      setValue(e)
   }
+  return (
+      <InputNumber
+          values={value}
+          label={'number'}
+          background={'#f1f1f1'}
+          onChange={(e) => onChange(e)}
+    />
+  )
 }
 ```
 

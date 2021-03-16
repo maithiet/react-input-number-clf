@@ -1,8 +1,8 @@
 {
-  "name": "react-input-number",
-  "version": "1.0.0",
+  "name": "react-input-number-clf",
+  "version": "1.0.7",
   "description": "Made with create-react-library",
-  "author": "",
+  "author": "thietmai",
   "license": "MIT",
   "repository": "/react-input-number",
   "main": "dist/index.js",
@@ -45,13 +45,13 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-use": "^17.1.1"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "react-use": "^17.1.1",
     "styled-components": "^5.2.1"
   }
 }
